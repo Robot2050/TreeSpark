@@ -1,0 +1,11 @@
+.vscode
+__pycache__
+.pytest_cache/
+.ipynb_checkpoints/
+train_datasets/
+logs/
+*.png
+*.egg-info/
+build/
+dist/
+.DS_Store

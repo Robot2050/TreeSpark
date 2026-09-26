@@ -1,0 +1,38 @@
+DeepSpec
+Copyright (c) 2026 The DeepSpec Authors
+
+This product includes software adapted from third-party open-source projects.
+The original copyright notices and license terms of those projects are retained
+below. Files that incorporate adapted code carry an in-file comment pointing to
+the upstream source.
+
+================================================================================
+SpecForge — https://github.com/sgl-project/SpecForge
+License: Apache License 2.0
+--------------------------------------------------------------------------------
+Portions of the Eagle3 modeling, loss, optimizer, attention, and evaluation code
+are adapted from SpecForge. Affected files include (non-exhaustive):
+
+  deepspec/modeling/eagle3/loss.py
+  deepspec/modeling/eagle3/common.py
+  deepspec/modeling/eagle3/qwen3/modeling.py
+  deepspec/modeling/eagle3/gemma4/modeling.py
+  deepspec/eval/eagle3/evaluator.py
+  deepspec/utils/optim.py
+  scripts/data/download_and_split.py
+
+SpecForge's fused log-softmax loss kernel itself incorporates ideas from the
+Unsloth (https://github.com/unslothai/unsloth) and Liger-Kernel
+(https://github.com/linkedin/Liger-Kernel) projects.
+
+A copy of the Apache License 2.0 is available at:
+  https://www.apache.org/licenses/LICENSE-2.0
+
+================================================================================
+DFlash — https://github.com/z-lab/dflash
+License: MIT
+--------------------------------------------------------------------------------
+The DFlash draft-model design and training recipe inform the DSpark/DFlash
+configurations and modeling in this repository.
+
+================================================================================
