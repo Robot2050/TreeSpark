@@ -2,10 +2,6 @@
     TreeSpark: Learning to Draft the Trees You Verify for Speculative Decoding
 </h1>
 
-<p align="center">
-  <img src="docs/framework.jpg" alt="TreeSpark framework" width="95%">
-</p>
-
 ## 🎯 Who Should Pay Attention to Our Work?
 
 * **LLM Inference and Serving Engineers:** Parallel drafters such as DFlash and DSpark lose the remainder of each block to the first rejection. TreeSpark turns the same backbone computation into a budgeted tree of alternatives, so more of every computed block survives verification.
